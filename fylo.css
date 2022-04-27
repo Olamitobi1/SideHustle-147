@@ -1,0 +1,262 @@
+ body {
+     background-color: hsl(218, 28%, 13%);
+ }
+
+ .head {
+     background-color: hsl(217, 28%, 15%);
+ }
+ 
+ .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+} 
+@media screen and (375px) {
+    .nav{
+        max-width: 50em;
+    }    
+}
+    
+.nav-list {
+    display: flex;
+}
+
+li {
+    margin: 10px;
+    list-style: none;
+    color: rgb(225, 225, 225, 0.5);
+}
+
+.get-started {
+    margin: 2px auto;
+    height: 50rem;
+    width: 30rem;
+}
+
+.intro {
+    text-align: center;
+    margin: 1rem;
+}
+
+.img-intro {
+    margin: 1.5rem auto;
+    height: 25rem;
+    width: 30rem;
+    padding: 1rem 2rem;
+}
+
+.btn {
+    background-color: hsl(176, 68%, 64%);
+    height: 3rem;
+    width: 10rem;
+    border-radius: 25px;    
+}
+
+p {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(225, 225, 225, 0.7);
+    /* text-align: center; */
+}
+
+.h-text {
+    font-weight: 700;
+    color: rgb(225, 225, 225, 0.85);
+
+}
+
+.text-intro {
+    margin: 1.5rem 2.5rem;
+    width: 23rem;
+    font-weight: 400;
+}
+
+.items-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3.5rem 15rem;
+}
+
+.items-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3.5rem 15rem;
+}
+
+.items-img {
+    margin: 0 9.5rem;
+}
+
+
+.item-head {
+    margin:2.5rem 5rem;
+    color: rgb(225, 225, 225, 0.85);
+
+}
+
+.item-text {
+    text-align: center;
+    margin: 1rem 2.8rem;
+}
+
+
+
+.prod {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem 5rem;
+}
+
+.prod-img {
+    height: 25rem;
+    width: 28rem;
+}
+
+.prod-text {
+    color: white
+}
+
+.prod-head {
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.mail {
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+    padding: 3.5rem;
+}
+
+.email {
+    background-color: hsl(219, 30%, 18%);
+    margin: 2rem;
+    text-align: left;
+    height: 13rem;
+    width: 25rem;
+    box-sizing: border-box 2px solid hsl(219, 30%, 18%);
+
+}
+
+.quote {
+    position: absolute;
+    top: 127rem;
+    left: 3.5rem ;
+    z-index: 5;
+}
+
+.mail-text {
+    margin: 1rem 2rem;
+    font-size: 14px;
+    font-weight: 400;
+    
+}
+
+.last-text {
+    width: 34rem;
+    padding-left: 5rem;
+    padding-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+.last-sec {
+    position: relative;
+    text-align: center;
+}
+input {
+    width: 20rem;
+    height: 2rem;
+    border-radius: 25px;
+}
+
+.last-btn {
+    background-color: hsl(176, 68%, 64%);
+    height: 2rem;
+    border-radius: 25px;
+    width: 10rem;
+    margin-left: 1rem;
+}
+a {
+    color: hsl(176, 68%, 64%);
+}
+
+a:hover{
+    cursor: pointer;
+    color: white;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.last-btn:hover {
+    cursor: pointer;
+}
+
+h1 {
+    color: white;
+    font-weight: 700;
+    padding-top: 0.7rem;
+    font-size: 2.5rem;
+}
+
+.last {
+    height: 15rem;
+    width: 45rem;
+    background-color: hsl(217, 28%, 15%);
+    position: absolute;
+    bottom: -17rem;
+    left: 23%;
+}
+
+footer {
+    background-color: hsl(216, 53%, 9%);
+    margin-top: 9rem;
+}
+
+.footer {
+    padding: 2rem 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.pro {
+    border-radius: 80px;
+    height: 2.2rem;
+    width: 2.2rem;
+    display: inline-block;
+}
+
+.first {
+    margin: 1.2rem;
+}
+
+.ava {
+    margin-left: 3rem;
+    margin-bottom: 1rem;
+}
+
+.text-big {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
+.img-foot {
+    margin-top: 10rem;
+    margin-left: 5rem;
+}
+
+.lorem {
+    width: 13rem;
+    padding: 0.1rem;
+    text-align: left;
+}
